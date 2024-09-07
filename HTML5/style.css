@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=VT323&display=swap');
+
+body{
+    background-image: url(micraft.jpg);
+    font-family: "vt323";
+}
+
+.box {
+    border: 10px solid rgb(29, 44, 5);
+    padding: 50px;
+}
+
+.box{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.box .body {
+    font-size: 35px;
+    margin-top: 8px;
+    color: aliceblue;
+}
+
+nav{
+    text-align: center;
+    font-size: 30pt;
+}
+
+#parágrafo{
+    text-align: justify;
+    font-size:17pt;
+}
+
+#listas{
+    font-size: 17pt;
+
+}
+
+#tabela{
+    font-size: 17pt;
+}
+
+nav a{
+    text-decoration: none;
+color: black;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+#formulário{
+    text-align: center;
+    align-items: center;
+    display:block;
+    background-image: "tnt.";
+    height: 400px;
+    width: 400px;
+    margin-left: 40%;
+}
+
+#formulário input[type="text"], input[type="email"]
+{
+    width: 300px;
+    height: 30px;
+}
+
+header{
+    display:flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
